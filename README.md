@@ -106,7 +106,9 @@ Para desenvolver esse projeto, eu utilizei o Subsistema Linux para Windows (WSL)
 
 Por ser um Subsistema, para compilar na plataforma Linux são os mesmos passos. 
 
- - (Apenas no Windows) Acesse [esse link](https://learn.microsoft.com/pt-br/windows/wsl/install) para as Instruções de como instalar o WSL.
+ - (**Apenas no Windows**) Acesse [esse link](https://learn.microsoft.com/pt-br/windows/wsl/install) para as Instruções de como instalar o WSL.
+
+
  - Use o CMake para gerar os arquivos de compilação:
  ```bash
 cmake -S . -B build
