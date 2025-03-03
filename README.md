@@ -96,7 +96,8 @@ content_copy
 ---
 # Notas do Autor
 
-Eu tentei implementar o código para na leitura do nome da Cidade, fosse possível inserir o nome com espaços.
+Eu tentei implementar no código a leitura do nome da Cidade,
+para ser possível inserir o nome dela com espaços.
 
 O Código ficará assim até que eu consiga arrumar.
 

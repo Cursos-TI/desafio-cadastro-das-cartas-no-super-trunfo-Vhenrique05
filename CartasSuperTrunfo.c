@@ -146,7 +146,7 @@ int main(void) {
 	printf("Insira as informações pedidas para funcionar!\n");
 
 	// usa a função para ler os dados das cartas
-	// e salvar seus valores nas variáveis:
+	// e salvar seus valores nas variáveis (globais):
 	carta_um = criar_carta();
 	carta_dois = criar_carta();
 
