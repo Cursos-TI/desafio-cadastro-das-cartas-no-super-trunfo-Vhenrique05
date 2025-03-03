@@ -52,10 +52,7 @@ Carta criar_carta() {
 	scanf("%4s", &carta.codigo); // lê apenas 4 caracteres
 
 	printf("\nInsira o nome da Cidade:\n>> ");
-	// scanf("%[^\n]40s", &carta.nome_da_cidade); // lê até 40 caracteres
-	// descrição do erro: ele tá pulando essa parte, ele não ta lendo corretamente:
-	// [0-9a-zA-Z ]%*
-	scanf("%40s", &carta.nome_da_cidade);
+	scanf("%40s", &carta.nome_da_cidade); // lê até 40 caracteres
 
 	printf("\nInsira a População da Cidade:\n>> ");
 	scanf("%ld", &carta.populacao);

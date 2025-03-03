@@ -92,3 +92,35 @@ Ao concluir qualquer um dos níveis, você terá dado um passo importante no des
 
 Equipe de Ensino - MateCheck
 content_copy
+
+---
+# Notas do Autor
+
+Eu tentei implementar o código para na leitura do nome da Cidade, fosse possível inserir o nome com espaços.
+
+O Código ficará assim até que eu consiga arrumar.
+
+## Como compilar
+Para desenvolver esse projeto, eu utilizei o Subsistema Linux para Windows (WSL).
+
+Por ser um Subsistema, para compilar na plataforma Linux são os mesmos passos. 
+
+ - (Apenas no Windows) Acesse [esse link](https://learn.microsoft.com/pt-br/windows/wsl/install) para as Instruções de como instalar o WSL.
+ - Use o CMake para gerar os arquivos de compilação:
+ ```bash
+cmake -S . -B build
+ ```
+
+ - Entre na pasta que foi criada:
+```bash
+cd build
+```
+
+ - E por fim, utilize o Make para compilar o código:
+```bash
+make all
+```
+
+--- 
+### OBS: O Programa compilado será localizado na pasta `build`, com o nome de `SuperTrunfo`
+
