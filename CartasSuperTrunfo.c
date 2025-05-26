@@ -72,7 +72,7 @@ Carta criar_carta() {
 	printf(" * Código:                     %s\n", carta.codigo);
 	printf(" * Nome:                       %s\n", carta.nome_da_cidade);
 	printf(" * População:                  %ld Habitantes\n", carta.populacao);
-	printf(" * Estado:                     %.2f km²\n", carta.area_km2);
+	printf(" * Área da Cidade:             %.2f km²\n", carta.area_km2);
 	printf(" * PIB:                        %.2f Bilhões de Reais\n", carta.PIB);
 	printf(" * Qnt. de Pontos Turísticos:  %d\n", carta.pontos_turisticos);
 	printf("############################\n");
@@ -100,7 +100,7 @@ void mostrar_dados() {
 	printf(" * Código:                     %s\n", carta_um.codigo);
 	printf(" * Nome:                       %s\n", carta_um.nome_da_cidade);
 	printf(" * População:                  %ld Habitantes\n", carta_um.populacao);
-	printf(" * Estado:                     %.2f km²\n", carta_um.area_km2);
+	printf(" * Área da Cidade:             %.2f km²\n", carta_um.area_km2);
 	printf(" * PIB:                        %.2f Bilhões de Reais\n", carta_um.PIB);
 	printf(" * Qnt. de Pontos Turísticos:  %d\n", carta_um.pontos_turisticos);
 	printf(" * Densidade Populacional:     %.2f\n", densidade_populacional_um);
@@ -113,7 +113,7 @@ void mostrar_dados() {
 	printf(" * Código:                     %s\n", carta_dois.codigo);
 	printf(" * Nome:                       %s\n", carta_dois.nome_da_cidade);
 	printf(" * População:                  %ld Habitantes\n", carta_dois.populacao);
-	printf(" * Estado:                     %.2f km²\n", carta_dois.area_km2);
+	printf(" * Área da Cidade:             %.2f km²\n", carta_dois.area_km2);
 	printf(" * PIB:                        %.2f Bilhões de Reais\n", carta_dois.PIB);
 	printf(" * Qnt. de Pontos Turísticos:  %d\n", carta_dois.pontos_turisticos);
 	printf(" * Densidade Populacional:     %.2f\n", densidade_populacional_dois);
