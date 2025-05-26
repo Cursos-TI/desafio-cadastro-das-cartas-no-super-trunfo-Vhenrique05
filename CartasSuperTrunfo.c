@@ -104,8 +104,8 @@ void mostrar_dados() {
 	printf(" * PIB:                        %.2f Bilhões de Reais\n", carta_um.PIB);
 	printf(" * Qnt. de Pontos Turísticos:  %d\n", carta_um.pontos_turisticos);
 	printf(" * Densidade Populacional:     %.2f\n", densidade_populacional_um);
-	printf(" * PIB per Capita:             %.2f\n", calcular_PIB_per_capita(carta_um));
-	printf(" * Super Poder:                %.2f\n", calcular_super_poder(carta_um));
+	printf(" * PIB per Capita:             %.2f\n", pib_per_capita_um);
+	printf(" * Super Poder:                %.2f\n", super_poder_um);
 
 	printf("\n");
 	printf("########### Carta 2 ###########\n");
@@ -117,8 +117,8 @@ void mostrar_dados() {
 	printf(" * PIB:                        %.2f Bilhões de Reais\n", carta_dois.PIB);
 	printf(" * Qnt. de Pontos Turísticos:  %d\n", carta_dois.pontos_turisticos);
 	printf(" * Densidade Populacional:     %.2f\n", densidade_populacional_dois);
-	printf(" * PIB per Capita:             %.2f\n", calcular_PIB_per_capita(carta_dois));
-	printf(" * Super Poder:                %.2f\n", calcular_super_poder(carta_dois));
+	printf(" * PIB per Capita:             %.2f\n", pib_per_capita_dois);
+	printf(" * Super Poder:                %.2f\n", super_poder_dois);
 	printf("\n");
 
 	printf("######### Comparações #########\n");
